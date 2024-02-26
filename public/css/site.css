@@ -1,0 +1,211 @@
+body {
+    color: #E0E0E0;
+    background-color: #202020;
+}
+.navbar {
+    color: #E0E0E0;
+    display: flex;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+a {color: #E0E0E0;}
+a:visited { text-decoration: none; color:#E0E0E0; }
+a:hover { text-decoration: none; color:#E0E0E0; }
+a:focus { text-decoration: none; color:#E0E0E0; }
+a:hover, a:active { text-decoration: none; color:#E0E0E0 }
+
+.navbarLinks {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    background: #606060;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #E0E0E0;
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 2.5px;
+    text-shadow: 1px 1px 2px black;
+}
+.pointer {
+    cursor: pointer;
+}
+.discContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.brandHeader {
+    background-color: #404040;
+    border-radius: 5px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    display: flex;
+}
+.spacer {
+    margin-left:auto;
+    margin-right:auto;
+}
+.brandHeaderTitle {
+    color: #E0E0E0;
+    margin-left: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.downArrow {
+    margin-left:3px;
+    margin-right: 10px;
+}
+.downArrow:after {
+    content: ' ';
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+}
+
+
+.hide {
+    display: none;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.modal {
+    background-color: #404040;
+    color: #E0E0E0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.modalHeader {
+    text-align: center;
+    font-size: 3em;
+}
+.modalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+.flightNumbers {
+    width: 25%;
+    text-align: center;
+    font-size: 3em;
+}
+.flightContainer {
+    display: flex;
+}
+
+
+.distance-driver {
+    background: 
+    radial-gradient(white, black 0%),
+    radial-gradient(#000099, white);
+    background-blend-mode: overlay;
+}
+.hybrid-driver {
+    background: 
+    radial-gradient(white, black 0%),
+    radial-gradient(#006600, white);
+    background-blend-mode: overlay;
+}
+.fairway-driver {
+    background: 
+    radial-gradient(white, black 0%),
+    radial-gradient(#660099, white);
+    background-blend-mode: overlay;        
+}
+.midrange {
+    background: 
+    radial-gradient(white, black 0%),
+    radial-gradient(#CC0066, white);
+    background-blend-mode: overlay;     
+}
+.approach {
+    background: 
+    radial-gradient(white, black 0%),
+    radial-gradient(#660000, white);
+    background-blend-mode: overlay;            
+}
+.putter {
+    background: 
+    radial-gradient(white, black 0%),
+    radial-gradient(#009999, white);
+    background-blend-mode: overlay;     
+}
+
+.ui-widget {
+    font-size: 1em;
+    font-family: inherit;
+    color: #E0E0E0;
+    background-color: #606060;
+}
+.searchContainer {
+    text-align: center;
+}
+.searchBar {
+    margin-bottom: 20px;
+    width: 50%;
+    color: #E0E0E0;
+    background-color: #606060;
+    border: 2px solid black;
+    font-size: 2em;
+}
+.selectDisc {
+    background-color: #606060;
+    color: #E0E0E0;
+    border-style: none;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.searchHeader {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.searchFlightNumbersContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.searchFlightNumbers {
+    font-size: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchImage {
+    margin-bottom: 20px;
+}
+.searchPurchaseDisc {
+    font-size: 2em;
+}
+
+.relatedDiscHeader {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

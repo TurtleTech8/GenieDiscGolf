@@ -1,0 +1,12 @@
+name = "GenieDiscGolf"
+uuid = "1f17f087-6be4-4dbf-b174-dfe258cdf295"
+authors = ["TurtleTech8 <58091353+TurtleTech8@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
+Inflector = "6d011eab-0732-4556-8808-e463c76bf3b6"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Mongoc = "4fe8b98c-fc19-5c23-8ec2-168ff83495f2"

@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.1/jquery-ui.js"></script>
+    <script src="js/search.js"></script>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/site.css" />
+
+  </head>
+  <body>
+    <div class="navbar">
+        <span>Demo only. All data is courtesy of <a href="https://www.marshallstreetdiscgolf.com/" target="_blank">Marshall Street Disc Golf</a></span>
+        <span class="spacer"></span>
+        <a class="navbarLinks" href="/">Home</a>
+        <a class="navbarLinks" href="/search">Search</a>
+    </div>
+    <div class="searchContainer">
+        <input type="text" id="searchDiscs" class="searchBar" value=""></input>
+        <button id="selectDisc" class="selectDisc pointer">Select</button>
+    
+        <div>
+            <div class="searchHeader"></div>
+            <div class="searchFlightNumbersContainer">
+                <span class="spacer"></span>
+                <span class="searchSpeed searchFlightNumbers"></span>
+                <span class="searchGlide searchFlightNumbers"></span>
+                <span class="searchTurn searchFlightNumbers"></span>
+                <span class="searchFade searchFlightNumbers"></span>
+                <span class="spacer"></span>
+            </div>
+            <img class="searchImage"></img>
+            <div class="searchPurchaseDisc"></div>
+        </div>
+        <div>
+            <h2 class="relatedDiscHeader hide">Related Discs</h2>
+            <div class="discContainer"></div>
+        </div>
+    </div>
+  </body>
+</html>
